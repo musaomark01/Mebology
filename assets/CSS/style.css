@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+/*re mover underlines from hyperlinks */
+a {
+    text-decoration: none;
+}
+/* set the background color 
+set a solid border
+make a space of 20px to separate the headed from the main content*/
+header { 
+    background-color: lightblue;
+    border: 5px solid black;
+    margin-bottom: 20px;
+
+}
+/* made the font bigger
+made it that h1 is next to the image */
+header h1{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+/* made the navigation bar in a row 
+made it that they stack when screen get smaller
+made space between and around the navigation bar 
+set the so that they are at the bottom of the header */
+header nav ul  {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+
+}
