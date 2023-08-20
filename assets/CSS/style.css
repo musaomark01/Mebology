@@ -11,7 +11,7 @@ make a space of 20px to separate the headed from the main content*/
 header { 
     background-color: lightblue;
     border: 5px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 
 }
 header img {
@@ -72,7 +72,7 @@ body section aside figure p {
 
     
 }
-#first img{
+#first{
     display: flex;
     flex-wrap: wrap;
     height: 400px;
@@ -90,4 +90,3 @@ body figure img {
         font-size: 150%;
     }
 }
-
